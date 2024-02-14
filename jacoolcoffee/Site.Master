@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="jacoolcoffee.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Ja's Cool Coffee</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="Content/Main.css" />
+    <noscript><link rel="stylesheet" href="Content/noscript.css" /></noscript>
+</head>
+<body class="homepage is-preload">
+    <form id="form1" runat="server">
+    <div id="page-wrapper">
+        <header>
+            <section id="header">
+					<!-- Logo -->
+						<h1><a href="Menu.aspx">Ja's Cool Coffee</a></h1>
+
+                    <asp:ContentPlaceHolder runat="server" ID="NavContent" />
+            </section>
+        </header>
+        <asp:ContentPlaceHolder runat="server" ID="BannerContent" />
+        <asp:ContentPlaceHolder runat="server" ID="MainContent" />
+        </div>
+    </div>
+    </form>
+
+    <!-- Scripts -->
+    <script src="scripts/main.js"></script>
+</body>
+</html>
