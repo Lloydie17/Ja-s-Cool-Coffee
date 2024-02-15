@@ -2488,22 +2488,10 @@ input, select, textarea {
 				font-size: 1.75em;
 			}
 
-/* Copyright */
-
-	#copyright {
-		text-align: center;
-		margin: 3em 0 2em 0;
-	}
-
-		#copyright ul.links {
-			display: inline-block;
-			background: #2C2929;
-			background: rgba(255, 255, 255, 0.05);
-			border-radius: 5px;
-			margin: 0;
-			padding: 0.85em 2.25em 0.85em 2.25em;
-		}
-
+        .float-center {
+            text-align: center;
+        }
+            
 /* XLarge */
 
 	@media screen and (max-width: 1680px) {

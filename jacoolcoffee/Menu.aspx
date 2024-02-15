@@ -24,43 +24,43 @@
         <section class="carousel">
 		        <div class="reel">
 			        <article>
-				        <a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
+				        <a href="#" class="image featured"><img src="Images/Froccino-cookies.jpg" alt="" /></a>
 				        <header>
-					        <h3><a href="#">Pulvinar sagittis congue</a></h3>
+					        <h3><a href="#">Froccino Cookies n' Cream</a></h3>
 				        </header>
-				        <p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
+				        <p>Blended Coffee with Oreo Cookies and Whipped Cream</p>
 			        </article>
 
 			        <article>
-				        <a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+				        <a href="#" class="image featured"><img src="Images/froccino-mocha.jpg" alt="" /></a>
 				        <header>
-					        <h3><a href="#">Fermentum sagittis proin</a></h3>
+					        <h3><a href="#">Froccino Mocha</a></h3>
 				        </header>
-				        <p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
+				        <p>Blended Coffee with Chocolate Sauce and Whipped Cream</p>
 			        </article>
 
 			        <article>
-				        <a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+				        <a href="#" class="image featured"><img src="Images/hot-caramel-latte.jpg" alt="" /></a>
 				        <header>
-					        <h3><a href="#">Sed quis rhoncus placerat</a></h3>
+					        <h3><a href="#">Hot Caramel Latte</a></h3>
 				        </header>
-				        <p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
+				        <p>Hot espresso with caramel sauce and milk</p>
 			        </article>
 
 			        <article>
-				        <a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
+				        <a href="#" class="image featured"><img src="Images/hot-coffee-mocha.jpg" alt="" /></a>
 				        <header>
-					        <h3><a href="#">Ultrices urna sit lobortis</a></h3>
+					        <h3><a href="#">Hot Caffee Mocha</a></h3>
 				        </header>
-				        <p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
+				        <p>Espresso with chocolate powder and milk with whipped cream</p>
 			        </article>
 
 			        <article>
-				        <a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
+				        <a class="image featured"><img src="Images/ice-caramel-latte.jpg" alt="" /></a>
 				        <header>
-					        <h3><a href="#">Varius magnis sollicitudin</a></h3>
-				        </header>
-				        <p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
+					        <h3><a href="#">Ice Caramel Latte</a></h3>
+				        </header>   
+				        <p>Espresso with ice, caramel sauce and milk</p>
 			        </article>
 		    </div>
             <span class="forward"></span>

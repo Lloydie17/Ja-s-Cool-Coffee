@@ -63,6 +63,11 @@
     <Content Include="Images\coffee-background.png" />
     <Content Include="Images\cup-coffee.png" />
     <Content Include="Images\cutee.png" />
+    <Content Include="Images\Froccino-cookies.jpg" />
+    <Content Include="Images\froccino-mocha.jpg" />
+    <Content Include="Images\hot-caramel-latte.jpg" />
+    <Content Include="Images\hot-coffee-mocha.jpg" />
+    <Content Include="Images\ice-caramel-latte.jpg" />
     <Content Include="Scripts\main.js" />
     <Content Include="Web.config" />
     <Content Include="Menu.aspx" />
