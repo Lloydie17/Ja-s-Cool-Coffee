@@ -3,10 +3,8 @@
     <nav id="nav">
 		<ul>
 			<li class="current"><a href="Menu.aspx">Menu</a></li>
-			<li><a href="#">Products</a></li>
-			<li><a href="#">Franchising</a></li>
-			<li><a href="#">Locations</a></li>
-            <li><a href="#">About Us</a></li>
+			<li><a href="Products.aspx">Products</a></li>
+            <li><a href="AboutUs.aspx">About Us</a></li>
 		</ul>
 	</nav>
 </asp:Content>
@@ -14,7 +12,7 @@
     <section id="banner">
 		<header>
 			<h2>In-store Menu</h2>
-			<button>ORDER NOW</button>
+            <asp:Button ID="Button1" runat="server" Text="ORDER NOW" OnClick="Button1_Click" />
 		</header>
 	</section>
 </asp:Content>
