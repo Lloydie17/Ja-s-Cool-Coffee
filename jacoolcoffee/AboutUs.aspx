@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="AboutUs.aspx.cs" Inherits="jacoolcoffee.WebForm2" %>
+﻿    <%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="AboutUs.aspx.cs" Inherits="jacoolcoffee.WebForm2" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="NavContent" runat="server">
     <nav id="nav">
 		<ul>

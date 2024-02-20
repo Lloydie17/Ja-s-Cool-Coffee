@@ -12,7 +12,7 @@
     <section id="banner">
 		<header>
 			<h2>In-store Menu</h2>
-            <asp:Button ID="Button1" runat="server" Text="ORDER NOW" OnClick="Button1_Click" />
+            <h2>Rise and grind, it's coffee time!</h2>
 		</header>
 	</section>
 </asp:Content>

@@ -21,7 +21,7 @@
                     <asp:ContentPlaceHolder runat="server" ID="NavContent" />
             </section>
         </header>
-        <asp:ContentPlaceHolder runat="server" ID="BannerContent" />
+        <asp:ContentPlaceHolder runat="server" ID="BannerContent" />    
         <asp:ContentPlaceHolder runat="server" ID="MainContent" />
         </div>
         <footer>
