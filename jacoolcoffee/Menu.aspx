@@ -18,15 +18,16 @@
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="MainContent" runat="server">
     <section id="main">
-
+        <h1 class="best-sellers">BEST SELLERS!</h1>
         <section class="carousel">
 		        <div class="reel">
 			        <article>
-				        <a href="#" class="image featured"><img src="Images/Froccino-cookies.jpg" alt="" /></a>
+				        <a href="Products.aspx" class="image featured"><img src="Images/Froccino-cookies.jpg" alt="" /></a>
 				        <header>
-					        <h3><a href="#">Froccino Cookies n' Cream</a></h3>
+					        <h3><a href="Products.aspx">Froccino Cookies n' Cream</a></h3>
 				        </header>
 				        <p>Blended Coffee with Oreo Cookies and Whipped Cream</p>
+                        <asp:Button CssClass="rate-button" runat="server" Text="Rate" />
 			        </article>
 
 			        <article>
