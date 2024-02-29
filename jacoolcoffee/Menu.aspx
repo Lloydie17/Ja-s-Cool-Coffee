@@ -28,6 +28,13 @@
 				        </header>
 				        <p>Blended Coffee with Oreo Cookies and Whipped Cream</p>
                         <asp:Button CssClass="rate-button" runat="server" Text="Rate" />
+                        <div class="star-rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>
 			        </article>
 
 			        <article>
@@ -36,6 +43,14 @@
 					        <h3><a href="#">Froccino Mocha</a></h3>
 				        </header>
 				        <p>Blended Coffee with Chocolate Sauce and Whipped Cream</p>
+                        <asp:Button ID="Button1" CssClass="rate-button" runat="server" Text="Rate" />
+                        <div class="star-rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
 			        </article>
 
 			        <article>
@@ -44,6 +59,14 @@
 					        <h3><a href="#">Hot Caramel Latte</a></h3>
 				        </header>
 				        <p>Hot espresso with caramel sauce and milk</p>
+                        <asp:Button ID="Button2" CssClass="rate-button" runat="server" Text="Rate" />
+                        <div class="star-rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
 			        </article>
 
 			        <article>
@@ -52,6 +75,14 @@
 					        <h3><a href="#">Hot Caffee Mocha</a></h3>
 				        </header>
 				        <p>Espresso with chocolate powder and milk with whipped cream</p>
+                        <asp:Button ID="Button3" CssClass="rate-button" runat="server" Text="Rate" />
+                        <div class="star-rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
 			        </article>
 
 			        <article>
@@ -60,6 +91,14 @@
 					        <h3><a href="#">Ice Caramel Latte</a></h3>
 				        </header>   
 				        <p>Espresso with ice, caramel sauce and milk</p>
+                        <asp:Button ID="Button4" CssClass="rate-button" runat="server" Text="Rate" />
+                        <div class="star-rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
 			        </article>
 		    </div>
             <span class="forward"></span>

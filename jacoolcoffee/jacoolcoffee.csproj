@@ -57,6 +57,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\JACOOL_DB.mdf" />
+    <Content Include="App_Data\JACOOL_DB_log.ldf">
+      <DependentUpon>JACOOL_DB.mdf</DependentUpon>
+    </Content>
     <Content Include="Images\arrow.svg" />
     <Content Include="Content\main.css" />
     <Content Include="Content\noscript.css" />
