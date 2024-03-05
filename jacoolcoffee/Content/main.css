@@ -87,6 +87,10 @@ input, select, textarea {
     margin: 0em 0em 0em 10em;
 }
 
+.nav-login {
+    margin: 0em 10em 0em 0em;
+}
+
 /* Basic */
 
 	html {
