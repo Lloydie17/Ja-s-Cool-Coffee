@@ -61,6 +61,7 @@
     <Content Include="App_Data\JACOOL_DB_log.ldf">
       <DependentUpon>JACOOL_DB.mdf</DependentUpon>
     </Content>
+    <Content Include="Content\style.css" />
     <Content Include="Images\arrow.svg" />
     <Content Include="Content\main.css" />
     <Content Include="Content\noscript.css" />
@@ -72,6 +73,7 @@
     <Content Include="Images\hot-caramel-latte.jpg" />
     <Content Include="Images\hot-coffee-mocha.jpg" />
     <Content Include="Images\ice-caramel-latte.jpg" />
+    <Content Include="Login.aspx" />
     <Content Include="Scripts\main.js" />
     <Content Include="Web.config" />
     <Content Include="Menu.aspx" />
@@ -79,6 +81,13 @@
     <Content Include="Products.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
