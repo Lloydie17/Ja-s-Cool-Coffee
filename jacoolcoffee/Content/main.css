@@ -91,6 +91,43 @@ input, select, textarea {
     margin: 20px auto;
     display: block;
 }
+
+.fback-section {
+    margin: 2.5em 0 0 0;
+}
+
+.fback-section > ul {
+    margin: 0;
+}
+
+.fback-section > ul > li {
+	display: inline-block;
+	font-style: italic;
+	margin: 0 0.35em 0 0.35em;
+}
+
+.fback-name {
+    width: 200px;
+}
+
+.fback-text {
+    width: 510px;
+}
+
+.fback-section > ul > li > ul {
+	display: none;
+}
+
+.fback-button {
+    top: 0;
+}
+
+.uppercase
+{
+    text-transform: uppercase;
+}
+
+
 /* Basic */
 
 	html {
@@ -1639,8 +1676,7 @@ input, select, textarea {
 		border-radius: 5px;
 		border: solid 1px #dddddd;
 		background: #fff;
-		width: 100%;
-	}
+		}
 
 		form input[type=text]:focus,
 		form input[type=email]:focus,

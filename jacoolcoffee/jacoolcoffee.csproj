@@ -57,6 +57,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\JACOOL_DB.mdf" />
+    <Content Include="App_Data\JACOOL_DB_log.ldf">
+      <DependentUpon>JACOOL_DB.mdf</DependentUpon>
+    </Content>
     <Content Include="Content\style.css" />
     <Content Include="Images\arrow.svg" />
     <Content Include="Content\main.css" />
@@ -123,9 +127,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
