@@ -4,6 +4,9 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Data;
+using System.Data.SqlClient;
+using System.Web.Security;
 
 namespace jacoolcoffee
 {
@@ -11,7 +14,24 @@ namespace jacoolcoffee
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Session["User"] == null)
+            {
+                Session.Clear();
+                Session.Abandon();
+                FormsAuthentication.SignOut();
+                Response.Redirect("Login.aspx");
+            }
+        }
 
+        protected void logout(object sender, EventArgs e)
+        {
+            // Clear session and sign out
+            Session.Clear();
+            Session.Abandon();
+            FormsAuthentication.SignOut();
+
+            // Redirect to the login page
+            Response.Redirect("Login.aspx");
         }
 
         protected void Button1_Click(object sender, EventArgs e)

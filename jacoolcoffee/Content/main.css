@@ -73,24 +73,24 @@ input, select, textarea {
     font-size: 4vh;
 }
 
-.rate-button {
-    height: 50px;
-    text-align:center;
-    margin-bottom: 2em;
-}
-
-.checked {
-  color: orange;
-}
-
-.star-rating {
-    margin: 0em 0em 0em 10em;
-}
-
 .nav-login {
     margin: 0em 10em 0em 0em;
 }
 
+.box {
+    width: 1000px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px auto;
+}
+
+.box .prod-image {
+    width:500px;
+    padding: 10px;
+    margin: 20px auto;
+    display: block;
+}
 /* Basic */
 
 	html {

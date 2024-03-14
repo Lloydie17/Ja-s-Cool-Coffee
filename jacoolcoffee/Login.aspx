@@ -33,7 +33,7 @@
                                                     <asp:TextBox TextMode="password" runat="server" name="logpass" class="form-style" placeholder="Your Password" id="logpass" autocomplete="off"></asp:TextBox>
                                                     <i class="input-icon uil uil-lock-alt"></i>
                                                     </div>
-                                                <a href="#" class="btn mt-4">Login</a>
+                                                <asp:Button ID="btnLogin" runat="server" Text="Login" class="btn mt-4" OnClick="btnLogin_Click"/>
                                                 <p class="mb-0 mt-4 text-center"><a href="#0" class="link">Forgot your password?</a></p>
                                             </div>
                                         </div>
@@ -43,18 +43,18 @@
                                             <div class="section text-center">
                                                 <h4 class="mb-4 pb-3">Sign Up</h4>
                                                 <div class="form-group">
-                                                    <asp:TextBox runat="server" type="text" name="logname" class="form-style" placeholder="Your Full Name" id="logname" autocomplete="off"></asp:TextBox>
+                                                    <asp:TextBox runat="server" type="text" name="regname" class="form-style" placeholder="Your Full Name" id="regname" autocomplete="off"></asp:TextBox>
                                                     <i class="input-icon uil uil-user"></i>
                                                 </div>
                                                 <div class="form-group mt-2">
-                                                    <asp:TextBox runat="server" type="email" name="logemail" class="form-style" placeholder="Your Email" id="Email1" autocomplete="off"></asp:TextBox>
+                                                    <asp:TextBox runat="server" type="email" name="regemail" class="form-style" placeholder="Your Email" id="regemail" autocomplete="off"></asp:TextBox>
                                                     <i class="input-icon uil uil-at"></i>
                                                 </div>
                                                 <div class="form-group mt-2">
-                                                    <asp:TextBox runat="server" type="password" name="logpass" class="form-style" placeholder="Your Password" id="Password1" autocomplete="off"></asp:TextBox>
+                                                    <asp:TextBox runat="server" type="password" name="regpass" class="form-style" placeholder="Your Password" id="regpass" autocomplete="off"></asp:TextBox>
                                                     <i class="input-icon uil uil-lock-alt"></i>
                                                 </div>
-                                                <a href="#" class="btn mt-4">Sign Up</a>
+                                                <asp:Button ID="btnSignUp" runat="server" Text="Sign Up" class="btn mt-4" OnClick="btnSignUp_Click"/>
                                             </div>
                                         </div>
                                     </div>

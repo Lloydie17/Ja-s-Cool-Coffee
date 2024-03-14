@@ -40,30 +40,48 @@ namespace jacoolcoffee {
         protected global::System.Web.UI.WebControls.TextBox logpass;
         
         /// <summary>
-        /// logname control.
+        /// btnLogin control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox logname;
+        protected global::System.Web.UI.WebControls.Button btnLogin;
         
         /// <summary>
-        /// Email1 control.
+        /// regname control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Email1;
+        protected global::System.Web.UI.WebControls.TextBox regname;
         
         /// <summary>
-        /// Password1 control.
+        /// regemail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Password1;
+        protected global::System.Web.UI.WebControls.TextBox regemail;
+        
+        /// <summary>
+        /// regpass control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox regpass;
+        
+        /// <summary>
+        /// btnSignUp control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnSignUp;
     }
 }

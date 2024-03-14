@@ -24,7 +24,6 @@
         </header>
         <asp:ContentPlaceHolder runat="server" ID="BannerContent" />    
         <asp:ContentPlaceHolder runat="server" ID="MainContent" />
-        </div>
         <footer>
             <div class="float-center">
                 <p>&copy; <%: DateTime.Now.Year %> - Ja's Cool Coffee</p>

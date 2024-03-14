@@ -16,4 +16,13 @@
 	</section>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="MainContent" runat="server">
+    <section id="main">
+        <div class="box">
+			<img class="prod-image" src="Images/Froccino-cookies.jpg" alt="" />
+			<header>
+				<h3><a href="Products.aspx">Froccino Cookies n' Cream</a></h3>
+			</header>
+			<p>Blended Coffee with Oreo Cookies and Whipped Cream</p>
+        </div>
+    </section>
 </asp:Content>

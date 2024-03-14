@@ -5,7 +5,7 @@
 			<li class="current"><a href="Menu.aspx">Menu</a></li>
 			<li><a href="Products.aspx">Products</a></li>
             <li><a href="AboutUs.aspx">About Us</a></li>
-            <li><a href="Login.html">Login</a></li>
+            <li><a id="logoutLink" runat="server" href="#" OnServerClick="logout">Logout</a></li>
 		</ul>
 	</nav>
 </asp:Content>
@@ -28,14 +28,7 @@
 					        <h3><a href="Products.aspx">Froccino Cookies n' Cream</a></h3>
 				        </header>
 				        <p>Blended Coffee with Oreo Cookies and Whipped Cream</p>
-                        <asp:Button CssClass="rate-button" runat="server" Text="Rate" />
-                        <div class="star-rating">
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                        </div>
+                        <asp:Button ID="feedback" CssClass="fback-button" runat="server" Text="Give Feedback"/>
 			        </article>
 
 			        <article>
