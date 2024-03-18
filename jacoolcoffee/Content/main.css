@@ -77,6 +77,14 @@ input, select, textarea {
     margin: 0em 10em 0em 0em;
 }
 
+.box2 {
+    width: 550px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px auto;
+}
+
 .box {
     width: 1000px;
     border: 1px solid #ccc;
@@ -104,6 +112,17 @@ input, select, textarea {
 	display: inline-block;
 	font-style: italic;
 	margin: 0 0.35em 0 0.35em;
+}
+
+.franchise-form {
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+.form-franchise {
+    padding: 10px;
+    margin: 20px auto;
+    display: block;
 }
 
 .fback-name {
@@ -143,6 +162,16 @@ input, select, textarea {
 {
     text-transform: uppercase;
 }
+
+.fbtn {
+    display: block;
+    margin: 0 auto;
+}
+
+.center {
+    text-align: center;
+}
+
 
 
 /* Basic */
