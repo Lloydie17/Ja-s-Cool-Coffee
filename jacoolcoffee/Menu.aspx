@@ -5,7 +5,8 @@
 			<li class="current"><a href="Menu.aspx">Menu</a></li>
 			<li><a href="Products.aspx">Products</a></li>
             <li><a href="AboutUs.aspx">About Us</a></li>
-            <li><a id="logoutLink" runat="server" href="#" OnServerClick="logout">Logout</a></li>
+            <li><a href="Login.aspx" runat="server">Login</a></li>
+            <li><a visible="false" id="logoutLink" runat="server" href="#" OnServerClick="logout">Logout</a></li>
 		</ul>
 	</nav>
 </asp:Content>
@@ -29,6 +30,7 @@
 				        </header>
 				        <p>Blended Coffee with Oreo Cookies and Whipped Cream</p>
                         <asp:Button ID="feedback" CssClass="fback-button" runat="server" Text="Give Feedback"/>
+                        <p class="star-rate star-size">★★★★★</p>
 			        </article>
 
 			        <article>
@@ -37,14 +39,8 @@
 					        <h3><a href="#">Froccino Mocha</a></h3>
 				        </header>
 				        <p>Blended Coffee with Chocolate Sauce and Whipped Cream</p>
-                        <asp:Button ID="Button1" CssClass="rate-button" runat="server" Text="Rate" />
-                        <div class="star-rating">
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star"></span>
-                        </div>
+                        <asp:Button ID="Button1" CssClass="fback-button" runat="server" Text="Give Feedback"/>
+                        <p class="star-rate star-size">★★★★</p>
 			        </article>
 
 			        <article>
@@ -53,14 +49,8 @@
 					        <h3><a href="#">Hot Caramel Latte</a></h3>
 				        </header>
 				        <p>Hot espresso with caramel sauce and milk</p>
-                        <asp:Button ID="Button2" CssClass="rate-button" runat="server" Text="Rate" />
-                        <div class="star-rating">
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                        </div>
+                        <asp:Button ID="Button2" CssClass="fback-button" runat="server" Text="Give Feedback"/>
+                        <p class="star-rate star-size">★★★★</p>
 			        </article>
 
 			        <article>
@@ -69,14 +59,8 @@
 					        <h3><a href="#">Hot Caffee Mocha</a></h3>
 				        </header>
 				        <p>Espresso with chocolate powder and milk with whipped cream</p>
-                        <asp:Button ID="Button3" CssClass="rate-button" runat="server" Text="Rate" />
-                        <div class="star-rating">
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                        </div>
+                        <asp:Button ID="Button3" CssClass="fback-button" runat="server" Text="Give Feedback"/>
+                        <p class="star-rate star-size">★★★★★</p>
 			        </article>
 
 			        <article>
@@ -85,14 +69,8 @@
 					        <h3><a href="#">Ice Caramel Latte</a></h3>
 				        </header>   
 				        <p>Espresso with ice, caramel sauce and milk</p>
-                        <asp:Button ID="Button4" CssClass="rate-button" runat="server" Text="Rate" />
-                        <div class="star-rating">
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star"></span>
-                        </div>
+                        <asp:Button ID="Button4" CssClass="fback-button" runat="server" Text="Give Feedback"/>
+                        <p class="star-rate star-size">★★★★★</p>
 			        </article>
 		    </div>
             <span class="forward"></span>

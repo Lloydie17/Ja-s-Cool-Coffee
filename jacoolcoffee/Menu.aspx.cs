@@ -14,12 +14,8 @@ namespace jacoolcoffee
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Session["User"] == null)
-            {
-                Session.Clear();
-                Session.Abandon();
-                FormsAuthentication.SignOut();
-                Response.Redirect("Login.aspx");
+            if (!IsPostBack)
+            { 
             }
         }
 

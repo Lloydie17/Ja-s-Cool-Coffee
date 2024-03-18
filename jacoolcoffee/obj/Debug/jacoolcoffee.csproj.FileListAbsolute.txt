@@ -8,3 +8,8 @@ C:\Users\xx620\Documents\Visual Studio 2012\Projects\Ja-s-Cool-Coffee\jacoolcoff
 C:\Users\xx620\Documents\Visual Studio 2012\Projects\Ja-s-Cool-Coffee\jacoolcoffee\obj\Debug\jacoolcoffee.csprojResolveAssemblyReference.cache
 C:\Users\xx620\Documents\Visual Studio 2012\Projects\Ja-s-Cool-Coffee\jacoolcoffee\obj\Debug\jacoolcoffee.dll
 C:\Users\xx620\Documents\Visual Studio 2012\Projects\Ja-s-Cool-Coffee\jacoolcoffee\obj\Debug\jacoolcoffee.pdb
+C:\Users\pc\Documents\Visual Studio 2012\Projects\Ja-s-Cool-Coffee\jacoolcoffee\bin\jacoolcoffee.dll
+C:\Users\pc\Documents\Visual Studio 2012\Projects\Ja-s-Cool-Coffee\jacoolcoffee\bin\jacoolcoffee.pdb
+C:\Users\pc\Documents\Visual Studio 2012\Projects\Ja-s-Cool-Coffee\jacoolcoffee\obj\Debug\jacoolcoffee.csprojResolveAssemblyReference.cache
+C:\Users\pc\Documents\Visual Studio 2012\Projects\Ja-s-Cool-Coffee\jacoolcoffee\obj\Debug\jacoolcoffee.dll
+C:\Users\pc\Documents\Visual Studio 2012\Projects\Ja-s-Cool-Coffee\jacoolcoffee\obj\Debug\jacoolcoffee.pdb

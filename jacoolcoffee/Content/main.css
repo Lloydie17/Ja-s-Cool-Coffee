@@ -111,7 +111,24 @@ input, select, textarea {
 }
 
 .fback-text {
-    width: 510px;
+    width: 450px;
+}
+
+.fback-rate {
+    width: 90px;
+}
+
+.star-rate {
+    color: #FFCC00;
+}
+
+.star-size {
+    font-size: 21px;
+    margin-top: 5px;
+}
+
+.rate-me {
+    color: black;
 }
 
 .fback-section > ul > li > ul {

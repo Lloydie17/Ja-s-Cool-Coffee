@@ -27,17 +27,29 @@
                 <ul>
                     <li><asp:TextBox CssClass="fback-name uppercase" type="text" runat="server" name="fbackName" class="form-style" placeholder="Your Name (Optional)" id="fbackName"></asp:TextBox></li>
                     <li><asp:TextBox CssClass="fback-text uppercase" type="text" runat="server" name="fback" class="form-style" placeholder="Give me feedback!" id="fback"></asp:TextBox></li>
+                    <li><asp:DropDownList ID="fbackrate" class="fback-rate" runat="server">
+                        <asp:ListItem Selected="True">RATE ME!</asp:ListItem>
+                        <asp:ListItem class="star-rate" Value="★"></asp:ListItem>
+                        <asp:ListItem class="star-rate" Value="★★"></asp:ListItem>
+                        <asp:ListItem class="star-rate" Value="★★★"></asp:ListItem>
+                        <asp:ListItem class="star-rate" Value="★★★★"></asp:ListItem>
+                        <asp:ListItem class="star-rate" Value="★★★★★"></asp:ListItem>
+                        </asp:DropDownList>
+                    </li>
                     <li><asp:Button CssClass="fback-btn" ID="btnFback" runat="server" Text="Submit" class="btn mt-4" OnClick="btnFback_Click"/></li>
                 </ul>
                 <br /><br />
-                <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource1" DataKeyNames="FBACKID">
+                <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource1">
                     <Columns>
-                        <asp:BoundField DataField="FBACKID" SortExpression="FBACKID" InsertVisible="False" ReadOnly="True" HeaderText="NO." />
-                        <asp:BoundField DataField="FBACKCOMMENT" HeaderText="FBACKCOMMENT" SortExpression="FEEDBACKS COMMENT" />
+                        <asp:BoundField DataField="FBACKID" SortExpression="FBACKID" InsertVisible="False" ReadOnly="True" HeaderText="FBACKID" />
+                        <asp:BoundField DataField="FBACKCOMMENT" HeaderText="FBACKCOMMENT" SortExpression="FBACKCOMMENT" />
+                        <asp:BoundField DataField="FBACKRATE" HeaderText="FBACKRATE" SortExpression="FBACKRATE" >
+                        <ItemStyle ForeColor="#FFCC00" />
+                        </asp:BoundField>
                         <asp:BoundField DataField="NAME" HeaderText="NAME" SortExpression="NAME" />
                     </Columns>
                 </asp:GridView>
-                <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT [FBACKID], [FBACKCOMMENT], [NAME] FROM [FEEDBACK]"></asp:SqlDataSource>
+                <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT [FBACKID], [FBACKCOMMENT], [FBACKRATE], [NAME] FROM [FEEDBACK]"></asp:SqlDataSource>
             </div>
         </div>
     </section>
