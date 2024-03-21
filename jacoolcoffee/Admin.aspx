@@ -2,8 +2,8 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="NavContent" runat="server">
     <nav id="nav">
 		<ul>
-			<li><a href="Menu.aspx">Home</a></li>
-			<li class="current"><a href="Products.aspx">Products</a></li>
+			<li class="current"><a href="Menu.aspx">Home</a></li>
+			<li><a id="logoutLink" runat="server" href="#" OnServerClick="logout">Logout</a></li>
 		</ul>
 	</nav>
 </asp:Content>
@@ -20,9 +20,15 @@
                     <asp:BoundField DataField="contact_num" HeaderText="Contact Number" SortExpression="contact_num" />
                     <asp:BoundField DataField="location" HeaderText="Location" SortExpression="location" />
                     <asp:BoundField DataField="size" HeaderText="Size" SortExpression="size" />
-                    <asp:BoundField DataField="status" HeaderText="Status" SortExpression="status" />
+                    <asp:TemplateField HeaderText="Status">
+                        <ItemTemplate>
+                            <asp:Label ID="lblStatus" runat="server" Text='<%# GetStatusText(Eval("status")) %>'></asp:Label>
+                        </ItemTemplate>
+                    </asp:TemplateField>
                 </Columns>
             </asp:GridView>
+        </div>
+        <div class="box3">
             <br />
             <div class="form-group horizontal-align">
                 <asp:TextBox CssClass="admin-txt-id form-control" type="text" runat="server" name="getId" id="getId" placeholder="Enter No."></asp:TextBox>
@@ -30,18 +36,19 @@
             </div>
             <div class="form-master">
                 <div class="form-group horizontal-align">
-                    <asp:TextBox CssClass="form-control" type="text" runat="server" name="getId" id="TextBox1" placeholder="Name"></asp:TextBox>
-                    <asp:TextBox CssClass="form-control" type="text" runat="server" name="getId" id="TextBox2" placeholder="Email"></asp:TextBox>
-                    <asp:TextBox CssClass="form-control" type="text" runat="server" name="getId" id="TextBox3" placeholder="Contact Number"></asp:TextBox>
+                    <asp:TextBox CssClass="form-control" type="text" runat="server" name="dataname" id="dataname" placeholder="Name" Enabled="False"></asp:TextBox>
+                    <asp:TextBox CssClass="form-control" type="text" runat="server" name="dataemail" id="dataemail" placeholder="Email" Enabled="False"></asp:TextBox>
+                    <asp:TextBox CssClass="form-control" type="text" runat="server" name="datacontactnum" id="datacontactnum" placeholder="Contact Number" Enabled="False"></asp:TextBox>
                 </div>
                 <div class="form-group horizontal-align">
-                    <asp:TextBox CssClass="form-control" type="text" runat="server" name="getId" id="TextBox4" placeholder="Location"></asp:TextBox>
-                    <asp:TextBox CssClass="form-control" type="text" runat="server" name="getId" id="TextBox5" placeholder="Size"></asp:TextBox>
-                    <asp:DropDownList ID="DropDownList1" CssClass="form-control" runat="server">
+                    <asp:TextBox CssClass="form-control" type="text" runat="server" name="datalocation" id="datalocation" placeholder="Location" Enabled="False"></asp:TextBox>
+                    <asp:TextBox CssClass="form-control" type="text" runat="server" name="datasize" id="datasize" placeholder="Size" Enabled="False"></asp:TextBox>
+                    <asp:DropDownList ID="StatusList" CssClass="form-control" runat="server">
                         <asp:ListItem Text="Pending" Value="1"></asp:ListItem>
                         <asp:ListItem Text="Processing" Value="2"></asp:ListItem>
                         <asp:ListItem Text="Settled" Value="3"></asp:ListItem>
                     </asp:DropDownList>
+                    <asp:Button ID="btnUpdate" runat="server" Text="Update" class="btn btn-primary" OnClick="btnUpdate_Click"/>
                 </div>
             </div>
         </div>

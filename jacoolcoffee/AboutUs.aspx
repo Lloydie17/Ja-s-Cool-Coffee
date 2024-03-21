@@ -4,7 +4,7 @@
 		<ul>
 			<li><a href="Menu.aspx">Menu</a></li>
 			<li><a href="Products.aspx">Products</a></li>
-            <li class="current"><a href="AboutUs.aspx">About Us</a></li>
+            <li class="current"><a href="AboutUs.aspx">Franchising</a></li>
 		</ul>
 	</nav>
 </asp:Content>

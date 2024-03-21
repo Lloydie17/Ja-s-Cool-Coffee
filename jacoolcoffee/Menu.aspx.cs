@@ -19,17 +19,6 @@ namespace jacoolcoffee
             }
         }
 
-        protected void logout(object sender, EventArgs e)
-        {
-            // Clear session and sign out
-            Session.Clear();
-            Session.Abandon();
-            FormsAuthentication.SignOut();
-
-            // Redirect to the login page
-            Response.Redirect("Login.aspx");
-        }
-
         protected void Button1_Click(object sender, EventArgs e)
         {
             Response.Redirect("Products.aspx");

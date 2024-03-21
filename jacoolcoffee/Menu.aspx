@@ -4,9 +4,7 @@
 		<ul>
 			<li class="current"><a href="Menu.aspx">Menu</a></li>
 			<li><a href="Products.aspx">Products</a></li>
-            <li><a href="AboutUs.aspx">About Us</a></li>
-            <li><a href="Login.aspx" runat="server">Login</a></li>
-            <li><a visible="false" id="logoutLink" runat="server" href="#" OnServerClick="logout">Logout</a></li>
+            <li><a href="AboutUs.aspx">Franchising</a></li>
 		</ul>
 	</nav>
 </asp:Content>
